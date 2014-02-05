@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="logic.js"></script>
+<title>MyXO 2.0</title>
+</head>
+
+<body>
+<div id="field">
+  <img id="0" class="square" alt="0"></img>
+  <img id="1" class="square" alt="1"></img>
+  <img id="2" class="square" alt="2"></img> <br />
+  <img id="3" class="square" alt="3"></img>
+  <img id="4" class="square" alt="4"></img>
+  <img id="5" class="square" alt="5"></img> <br />
+  <img id="6" class="square" alt="6"></img>
+  <img id="7" class="square" alt="7"></img>
+  <img id="8" class="square" alt="8" src="images/O.png"></img> <br />
+</div>
+<div id="score">
+	<img class="scores" src="images/but.png" alt="New Game" onclick="initButtons()" /><br />
+    <img class="scores" src="images/score.png" alt="HighScore" /><br />
+    <table>
+      <tr>
+        <td>Wins: </td>
+        <td id="wins"></td>
+      </tr>
+      <tr>
+        <td>Draws: </td>
+        <td id="draws"></td>
+      </tr>
+      <tr>
+        <td>Loses: </td>
+        <td id="loses"></td>
+      </tr>
+	</table>
+
+    
+</div>
+</body>
+</html>
