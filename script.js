@@ -93,7 +93,6 @@ function PutX(x, y){
 			}
 		}
 	}
-	
 	draws++;
 	ShowResult("Draw =|");
 }
